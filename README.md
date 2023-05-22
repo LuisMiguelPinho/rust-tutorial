@@ -1,2 +1,5 @@
-# rust-tutorial
-Repo for rust tutorial exercises
+# Repository for the Rust Tutorial
+
+Contains partial exercises for the Rust Tutorial
+
+
