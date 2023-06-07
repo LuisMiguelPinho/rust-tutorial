@@ -39,14 +39,7 @@ fn main() {
 
     let now = Instant::now();
 
-    let avg = vec.iter().sum::<i32>() as f32 / vec_size as f32;
-
-    let sum = vec
-        .iter()
-        .map(|elem| (*elem as f32 - avg).powf(2.0))
-        .sum::<f32>();
-
-    let std_dev = (sum / vec_size as f32).sqrt();
+    // TODO
 
     let end = now.elapsed();
 
@@ -75,8 +68,6 @@ fn main() {
     // Parallel iterator with fold and sum
 
     let now = Instant::now();
-
-    let avg = vec.par_iter().sum::<i32>() as f32 / vec_size as f32;
 
     // TODO
 
